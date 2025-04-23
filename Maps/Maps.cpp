@@ -7,8 +7,12 @@
 
 int main()
 {
-	std::map<std::string, int> wordsMappedToTheirLengths; 
+	std::map<std::string, int> wordsMappedToTheirLengths; //std::map inherits from tree!
 
+
+	wordsMappedToTheirLengths["alpha"] = 5; 
+	wordsMappedToTheirLengths["beta"] = 4;
+	//etc.
 
 
 }
